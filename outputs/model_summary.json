@@ -1,0 +1,23 @@
+{
+  "logreg": {
+    "roc_auc": 0.7574713120982175,
+    "pr_auc": 0.14264949123829299
+  },
+  "xgboost": {
+    "roc_auc": 0.8910629159190389,
+    "pr_auc": 0.4880546925180571
+  },
+  "fraud_capture_at_500": {
+    "k": 500,
+    "fraud_captured": 469,
+    "fraud_total": 4064,
+    "precision_at_k": 0.938,
+    "recall_at_k": 0.11540354330708662
+  },
+  "cost_optimal_threshold": 0.24,
+  "cost_optimal_precision": 0.10788139499155017,
+  "cost_optimal_recall": 0.8639271653543307,
+  "train_rows": 472432,
+  "test_rows": 118108,
+  "n_features": 451
+}
