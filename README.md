@@ -191,15 +191,3 @@ amount, card type, card velocity) are still consistently in the top 10.
 - No real investigator feedback loop, no production transaction stream, and this
   project's model output indicates elevated risk warranting review — it is not a
   determination that a transaction is fraudulent.
-
-## Résumé bullets
-
-> Digital Payments Fraud & Identity Risk Investigation Engine | Python, SQL, XGBoost, SHAP, Streamlit
-> Built an end-to-end fraud analytics workflow on the IEEE-CIS transaction dataset,
-> combining chronologically-validated feature engineering, XGBoost risk scoring
-> (PR-AUC 0.49 vs. 0.14 logistic-regression baseline), threshold and cost-sensitive
-> decisioning, and SHAP-based reason codes to prioritize investigator review.
-
-> Developed a Streamlit investigation console with risk tiers, explainable reason codes,
-> an alert queue, and a threshold simulator quantifying fraud capture vs. false-positive
-> workload under a fixed daily review capacity (~79% fraud capture at 500 alerts/day).
